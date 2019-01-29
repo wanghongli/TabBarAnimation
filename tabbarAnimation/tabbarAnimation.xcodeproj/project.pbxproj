@@ -30,6 +30,9 @@
 		EBAFD2BA21F841A8009873D6 /* tab_poster_rec_p@2x.json in Resources */ = {isa = PBXBuildFile; fileRef = EBAFD2AD21F841A8009873D6 /* tab_poster_rec_p@2x.json */; };
 		EBAFD2BB21F841A8009873D6 /* tab_poster_vip_p@2x.json in Resources */ = {isa = PBXBuildFile; fileRef = EBAFD2AE21F841A8009873D6 /* tab_poster_vip_p@2x.json */; };
 		EBAFD2BC21F841A8009873D6 /* tab_poster_find_p@2x.json in Resources */ = {isa = PBXBuildFile; fileRef = EBAFD2AF21F841A8009873D6 /* tab_poster_find_p@2x.json */; };
+		EBAFD2BF21FC3A14009873D6 /* SRBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAFD2BE21FC3A13009873D6 /* SRBaseController.m */; };
+		EBAFD2C221FC3A2D009873D6 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAFD2C121FC3A2D009873D6 /* VideoController.m */; };
+		EBAFD2C621FC3FFB009873D6 /* JMNotifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAFD2C521FC3FFB009873D6 /* JMNotifyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,12 @@
 		EBAFD2AD21F841A8009873D6 /* tab_poster_rec_p@2x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tab_poster_rec_p@2x.json"; sourceTree = "<group>"; };
 		EBAFD2AE21F841A8009873D6 /* tab_poster_vip_p@2x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tab_poster_vip_p@2x.json"; sourceTree = "<group>"; };
 		EBAFD2AF21F841A8009873D6 /* tab_poster_find_p@2x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tab_poster_find_p@2x.json"; sourceTree = "<group>"; };
+		EBAFD2BD21FC3A13009873D6 /* SRBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRBaseController.h; sourceTree = "<group>"; };
+		EBAFD2BE21FC3A13009873D6 /* SRBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRBaseController.m; sourceTree = "<group>"; };
+		EBAFD2C021FC3A2D009873D6 /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		EBAFD2C121FC3A2D009873D6 /* VideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		EBAFD2C421FC3FFB009873D6 /* JMNotifyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNotifyView.h; sourceTree = "<group>"; };
+		EBAFD2C521FC3FFB009873D6 /* JMNotifyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNotifyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +126,16 @@
 		EBAFD28221F8144F009873D6 /* tabbarAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				EBAFD2C321FC3FDF009873D6 /* JMNotifyView */,
 				EBAFD2A221F841A8009873D6 /* dfs */,
 				EBAFD28321F8144F009873D6 /* AppDelegate.h */,
 				EBAFD28421F8144F009873D6 /* AppDelegate.m */,
 				EBAFD28621F8144F009873D6 /* ViewController.h */,
 				EBAFD28721F8144F009873D6 /* ViewController.m */,
+				EBAFD2BD21FC3A13009873D6 /* SRBaseController.h */,
+				EBAFD2BE21FC3A13009873D6 /* SRBaseController.m */,
+				EBAFD2C021FC3A2D009873D6 /* VideoController.h */,
+				EBAFD2C121FC3A2D009873D6 /* VideoController.m */,
 				EBAFD29921F81478009873D6 /* SRTabbarController.h */,
 				EBAFD29A21F81479009873D6 /* SRTabbarController.m */,
 				EBAFD29C21F81D12009873D6 /* SRTabBarItem.h */,
@@ -155,6 +169,15 @@
 				EBAFD2AF21F841A8009873D6 /* tab_poster_find_p@2x.json */,
 			);
 			path = dfs;
+			sourceTree = "<group>";
+		};
+		EBAFD2C321FC3FDF009873D6 /* JMNotifyView */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFD2C421FC3FFB009873D6 /* JMNotifyView.h */,
+				EBAFD2C521FC3FFB009873D6 /* JMNotifyView.m */,
+			);
+			path = JMNotifyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +294,13 @@
 			files = (
 				EBAFD29B21F81479009873D6 /* SRTabbarController.m in Sources */,
 				EBAFD28821F8144F009873D6 /* ViewController.m in Sources */,
+				EBAFD2C621FC3FFB009873D6 /* JMNotifyView.m in Sources */,
 				EBAFD2A121F83D8E009873D6 /* SRTabBar.m in Sources */,
+				EBAFD2BF21FC3A14009873D6 /* SRBaseController.m in Sources */,
 				EBAFD29321F81451009873D6 /* main.m in Sources */,
 				EBAFD29E21F81D12009873D6 /* SRTabBarItem.m in Sources */,
 				EBAFD28521F8144F009873D6 /* AppDelegate.m in Sources */,
+				EBAFD2C221FC3A2D009873D6 /* VideoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
